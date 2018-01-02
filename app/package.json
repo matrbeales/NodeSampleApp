@@ -6,7 +6,7 @@
   "scripts": {
     "postinstall": "node seeds/seed.js",
     "start": "node app.js",
-    "test": "./node_modules/mocha/bin/mocha"
+    "test": "./node_modules/mocha/bin/mocha test/unit"
   },
   "author": "",
   "license": "ISC",
