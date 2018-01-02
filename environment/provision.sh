@@ -4,7 +4,7 @@
 sudo apt-get update -y
 
 # upgrade any packages available
-sudo apt-get upgrade -y
+sudo DEBIAN_FRONTEND=noninteractive apt-get upgrade -yq
 
 # install nginx
 sudo apt-get install nginx -y
