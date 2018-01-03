@@ -1,7 +1,7 @@
 // deliberately poorly implemented fibonnaci
 function fibonacci(n) {
 
-  if (n < 0 || n == null || n == undefined)
+  if (n < 0 || n == null)
     return null;
 
   if(n == 0)
