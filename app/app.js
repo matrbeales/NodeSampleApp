@@ -3,6 +3,7 @@ var app = express();
 var exec = require('child_process').exec;
 var mongoose = require('mongoose');
 var Post = require('./models/post');
+var AdvancedMaths = require('./modules/advanced-maths');
 
 app.set('view engine' , 'ejs');
 
@@ -29,7 +30,7 @@ if(process.env.DB_HOST) {
 app.get('/fibonacci/:n' , function(req,res){
 
   // high cpu usage function
-  var value = fibonacci(req.params.n);
+  var value = AdvancedMaths.fibonacci(req.params.n);
 
   res.render("fibonacci" , {index:req.params.n, value:value});
 });
