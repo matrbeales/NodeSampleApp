@@ -2,4 +2,4 @@
 
 ## Recent additions
 
-Created develop branch and setup jenkins to perform merge before build
+Created develop branch and setup jenkins to perform merge before build.
