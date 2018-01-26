@@ -40,9 +40,9 @@ app.get('/fibonacci/:n' , function(req,res){
 //     res.render("hackable/index", {stdout:stdout, command:req.params.command});
 //   });
 // });
-
-app.listen(3000 , function(){
-  console.log('Your app is ready and listening on port 3000');
+var port = process.env.PORT || 3000 ;
+app.listen(port , function(){
+  console.log(`Your app is ready and listening on port ${port}`);
 });
 
 

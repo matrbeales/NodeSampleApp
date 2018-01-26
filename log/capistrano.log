@@ -1,0 +1,338 @@
+# Logfile created on 2018-01-26 15:22:34 +0000 by logger.rb/53141
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-01-26 15:22:34 +0000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [4497fdee] Running /usr/bin/env mkdir -p /tmp as ubuntu@52.50.22.47
+ DEBUG [4497fdee] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-01-26 15:23:02 +0000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [99e56432] Running /usr/bin/env mkdir -p /tmp as ubuntu@52.50.22.47
+ DEBUG [99e56432] Command: /usr/bin/env mkdir -p /tmp
+  INFO [99e56432] Finished in 0.468 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-sample-app-staging-stephen.reid.sh 0.0%
+  INFO Uploading /tmp/git-ssh-sample-app-staging-stephen.reid.sh 100.0%
+  INFO [bab71a77] Running /usr/bin/env chmod 700 /tmp/git-ssh-sample-app-staging-stephen.reid.sh as ubuntu@52.50.22.47
+ DEBUG [bab71a77] Command: /usr/bin/env chmod 700 /tmp/git-ssh-sample-app-staging-stephen.reid.sh
+  INFO [bab71a77] Finished in 0.091 seconds with exit status 0 (successful).
+  INFO [0372e932] Running /usr/bin/env git ls-remote git@github.com:spartaglobal/SpartaInventory.git HEAD as ubuntu@52.50.22.47
+ DEBUG [0372e932] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-sample-app-staging-stephen.reid.sh" ; /usr/bin/env git ls-remote git@github.com:spartaglobal/SpartaInventory.git HEAD )
+ DEBUG [0372e932] 	Warning: Permanently added 'github.com,192.30.253.112' (RSA) to the list of known hosts.
+ DEBUG [0372e932] 	87546f66e7b0aabeac78562cd72cea2e1fce39f7	HEAD
+  INFO [0372e932] Finished in 2.761 seconds with exit status 0 (successful).
+  INFO [8fb1e6b6] Running /usr/bin/env mkdir -p /var/www/sample-app/shared /var/www/sample-app/releases as ubuntu@52.50.22.47
+ DEBUG [8fb1e6b6] Command: /usr/bin/env mkdir -p /var/www/sample-app/shared /var/www/sample-app/releases
+ DEBUG [8fb1e6b6] 	mkdir: 
+ DEBUG [8fb1e6b6] 	cannot create directory '/var/www/sample-app'
+ DEBUG [8fb1e6b6] 	: Permission denied
+ DEBUG [8fb1e6b6] 	
+ DEBUG [8fb1e6b6] 	mkdir: 
+ DEBUG [8fb1e6b6] 	cannot create directory '/var/www/sample-app'
+ DEBUG [8fb1e6b6] 	: Permission denied
+ DEBUG [8fb1e6b6] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-01-26 15:24:27 +0000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [b87b6fb9] Running /usr/bin/env mkdir -p /tmp as ubuntu@52.50.22.47
+ DEBUG [b87b6fb9] Command: /usr/bin/env mkdir -p /tmp
+  INFO [b87b6fb9] Finished in 0.403 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-sample-app-staging-stephen.reid.sh 0.0%
+  INFO Uploading /tmp/git-ssh-sample-app-staging-stephen.reid.sh 100.0%
+  INFO [183b80d5] Running /usr/bin/env chmod 700 /tmp/git-ssh-sample-app-staging-stephen.reid.sh as ubuntu@52.50.22.47
+ DEBUG [183b80d5] Command: /usr/bin/env chmod 700 /tmp/git-ssh-sample-app-staging-stephen.reid.sh
+  INFO [183b80d5] Finished in 0.096 seconds with exit status 0 (successful).
+  INFO [2028e6e1] Running /usr/bin/env git ls-remote git@github.com:spartaglobal/SpartaInventory.git HEAD as ubuntu@52.50.22.47
+ DEBUG [2028e6e1] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-sample-app-staging-stephen.reid.sh" ; /usr/bin/env git ls-remote git@github.com:spartaglobal/SpartaInventory.git HEAD )
+ DEBUG [2028e6e1] 	87546f66e7b0aabeac78562cd72cea2e1fce39f7	HEAD
+  INFO [2028e6e1] Finished in 1.362 seconds with exit status 0 (successful).
+  INFO [c4307900] Running /usr/bin/env mkdir -p /var/www/sample-app/shared /var/www/sample-app/releases as ubuntu@52.50.22.47
+ DEBUG [c4307900] Command: /usr/bin/env mkdir -p /var/www/sample-app/shared /var/www/sample-app/releases
+ DEBUG [c4307900] 	mkdir: 
+ DEBUG [c4307900] 	cannot create directory '/var/www/sample-app'
+ DEBUG [c4307900] 	: Permission denied
+ DEBUG [c4307900] 	
+ DEBUG [c4307900] 	mkdir: 
+ DEBUG [c4307900] 	cannot create directory '/var/www/sample-app'
+ DEBUG [c4307900] 	: Permission denied
+ DEBUG [c4307900] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-01-26 15:25:44 +0000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [6613aae3] Running /usr/bin/env mkdir -p /tmp as ubuntu@52.50.22.47
+ DEBUG [6613aae3] Command: /usr/bin/env mkdir -p /tmp
+  INFO [6613aae3] Finished in 0.379 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-sample-app-staging-stephen.reid.sh 0.0%
+  INFO Uploading /tmp/git-ssh-sample-app-staging-stephen.reid.sh 100.0%
+  INFO [bb6693c5] Running /usr/bin/env chmod 700 /tmp/git-ssh-sample-app-staging-stephen.reid.sh as ubuntu@52.50.22.47
+ DEBUG [bb6693c5] Command: /usr/bin/env chmod 700 /tmp/git-ssh-sample-app-staging-stephen.reid.sh
+  INFO [bb6693c5] Finished in 0.088 seconds with exit status 0 (successful).
+  INFO [922e48e5] Running /usr/bin/env git ls-remote git@github.com:spartaglobal/SpartaInventory.git HEAD as ubuntu@52.50.22.47
+ DEBUG [922e48e5] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-sample-app-staging-stephen.reid.sh" ; /usr/bin/env git ls-remote git@github.com:spartaglobal/SpartaInventory.git HEAD )
+ DEBUG [922e48e5] 	87546f66e7b0aabeac78562cd72cea2e1fce39f7	HEAD
+  INFO [922e48e5] Finished in 1.367 seconds with exit status 0 (successful).
+  INFO [cfcb2df9] Running /usr/bin/env mkdir -p /home/ubuntu/app/shared /home/ubuntu/app/releases as ubuntu@52.50.22.47
+ DEBUG [cfcb2df9] Command: /usr/bin/env mkdir -p /home/ubuntu/app/shared /home/ubuntu/app/releases
+  INFO [cfcb2df9] Finished in 0.050 seconds with exit status 0 (successful).
+ DEBUG [c3c07d99] Running [ -f /home/ubuntu/app/current/REVISION ] as ubuntu@52.50.22.47
+ DEBUG [c3c07d99] Command: [ -f /home/ubuntu/app/current/REVISION ]
+ DEBUG [c3c07d99] Finished in 0.148 seconds with exit status 1 (failed).
+ DEBUG [c99ad474] Running [ -f /home/ubuntu/app/repo/HEAD ] as ubuntu@52.50.22.47
+ DEBUG [c99ad474] Command: [ -f /home/ubuntu/app/repo/HEAD ]
+ DEBUG [c99ad474] Finished in 0.131 seconds with exit status 1 (failed).
+ DEBUG [e6a6ae31] Running if test ! -d /home/ubuntu/app; then echo "Directory does not exist '/home/ubuntu/app'" 1>&2; false; fi as ubuntu@52.50.22.47
+ DEBUG [e6a6ae31] Command: if test ! -d /home/ubuntu/app; then echo "Directory does not exist '/home/ubuntu/app'" 1>&2; false; fi
+ DEBUG [e6a6ae31] Finished in 0.089 seconds with exit status 0 (successful).
+  INFO [634b4eee] Running /usr/bin/env git clone --mirror git@github.com:spartaglobal/SpartaInventory.git /home/ubuntu/app/repo as ubuntu@52.50.22.47
+ DEBUG [634b4eee] Command: cd /home/ubuntu/app && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-sample-app-staging-stephen.reid.sh" ; /usr/bin/env git clone --mirror git@github.com:spartaglobal/SpartaInventory.git /home/ubuntu/app/repo )
+ DEBUG [634b4eee] 	Cloning into bare repository '/home/ubuntu/app/repo'...
+ DEBUG [634b4eee] 	Warning: Permanently added the RSA host key for IP address '192.30.253.113' to the list of known hosts.
+  INFO [634b4eee] Finished in 5.452 seconds with exit status 0 (successful).
+ DEBUG [5138f5e7] Running if test ! -d /home/ubuntu/app/repo; then echo "Directory does not exist '/home/ubuntu/app/repo'" 1>&2; false; fi as ubuntu@52.50.22.47
+ DEBUG [5138f5e7] Command: if test ! -d /home/ubuntu/app/repo; then echo "Directory does not exist '/home/ubuntu/app/repo'" 1>&2; false; fi
+ DEBUG [5138f5e7] Finished in 0.043 seconds with exit status 0 (successful).
+  INFO [5001b9ec] Running /usr/bin/env git remote set-url origin git@github.com:spartaglobal/SpartaInventory.git as ubuntu@52.50.22.47
+ DEBUG [5001b9ec] Command: cd /home/ubuntu/app/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-sample-app-staging-stephen.reid.sh" ; /usr/bin/env git remote set-url origin git@github.com:spartaglobal/SpartaInventory.git )
+  INFO [5001b9ec] Finished in 0.094 seconds with exit status 0 (successful).
+  INFO [b38720e0] Running /usr/bin/env git remote update --prune as ubuntu@52.50.22.47
+ DEBUG [b38720e0] Command: cd /home/ubuntu/app/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-sample-app-staging-stephen.reid.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [b38720e0] 	Fetching origin
+  INFO [b38720e0] Finished in 1.387 seconds with exit status 0 (successful).
+ DEBUG [309f5b84] Running if test ! -d /home/ubuntu/app/repo; then echo "Directory does not exist '/home/ubuntu/app/repo'" 1>&2; false; fi as ubuntu@52.50.22.47
+ DEBUG [309f5b84] Command: if test ! -d /home/ubuntu/app/repo; then echo "Directory does not exist '/home/ubuntu/app/repo'" 1>&2; false; fi
+ DEBUG [309f5b84] Finished in 0.047 seconds with exit status 0 (successful).
+  INFO [6eb61493] Running /usr/bin/env mkdir -p /home/ubuntu/app/releases/20180126152546 as ubuntu@52.50.22.47
+ DEBUG [6eb61493] Command: cd /home/ubuntu/app/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-sample-app-staging-stephen.reid.sh" ; /usr/bin/env mkdir -p /home/ubuntu/app/releases/20180126152546 )
+  INFO [6eb61493] Finished in 0.090 seconds with exit status 0 (successful).
+  INFO [7f53c430] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/ubuntu/app/releases/20180126152546 as ubuntu@52.50.22.47
+ DEBUG [7f53c430] Command: cd /home/ubuntu/app/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-sample-app-staging-stephen.reid.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/ubuntu/app/releases/20180126152546 )
+  INFO [7f53c430] Finished in 0.106 seconds with exit status 0 (successful).
+ DEBUG [ac69baf0] Running if test ! -d /home/ubuntu/app/repo; then echo "Directory does not exist '/home/ubuntu/app/repo'" 1>&2; false; fi as ubuntu@52.50.22.47
+ DEBUG [ac69baf0] Command: if test ! -d /home/ubuntu/app/repo; then echo "Directory does not exist '/home/ubuntu/app/repo'" 1>&2; false; fi
+ DEBUG [ac69baf0] Finished in 0.090 seconds with exit status 0 (successful).
+ DEBUG [82badba2] Running /usr/bin/env git rev-list --max-count=1 master as ubuntu@52.50.22.47
+ DEBUG [82badba2] Command: cd /home/ubuntu/app/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-sample-app-staging-stephen.reid.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [82badba2] 	87546f66e7b0aabeac78562cd72cea2e1fce39f7
+ DEBUG [82badba2] Finished in 0.089 seconds with exit status 0 (successful).
+ DEBUG [f41f8aee] Running if test ! -d /home/ubuntu/app/releases/20180126152546; then echo "Directory does not exist '/home/ubuntu/app/releases/20180126152546'" 1>&2; false; fi as ubuntu@52.50.22.47
+ DEBUG [f41f8aee] Command: if test ! -d /home/ubuntu/app/releases/20180126152546; then echo "Directory does not exist '/home/ubuntu/app/releases/20180126152546'" 1>&2; false; fi
+ DEBUG [f41f8aee] Finished in 0.088 seconds with exit status 0 (successful).
+  INFO [a672de69] Running /usr/bin/env echo "87546f66e7b0aabeac78562cd72cea2e1fce39f7" >> REVISION as ubuntu@52.50.22.47
+ DEBUG [a672de69] Command: cd /home/ubuntu/app/releases/20180126152546 && /usr/bin/env echo "87546f66e7b0aabeac78562cd72cea2e1fce39f7" >> REVISION
+  INFO [a672de69] Finished in 0.090 seconds with exit status 0 (successful).
+  INFO [01500a56] Running /usr/bin/env ln -s /home/ubuntu/app/releases/20180126152546 /home/ubuntu/app/releases/current as ubuntu@52.50.22.47
+ DEBUG [01500a56] Command: /usr/bin/env ln -s /home/ubuntu/app/releases/20180126152546 /home/ubuntu/app/releases/current
+  INFO [01500a56] Finished in 0.088 seconds with exit status 0 (successful).
+  INFO [64df8d7f] Running /usr/bin/env mv /home/ubuntu/app/releases/current /home/ubuntu/app as ubuntu@52.50.22.47
+ DEBUG [64df8d7f] Command: /usr/bin/env mv /home/ubuntu/app/releases/current /home/ubuntu/app
+  INFO [64df8d7f] Finished in 0.087 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-01-26 15:27:27 +0000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [c6479823] Running /usr/bin/env mkdir -p /tmp as ubuntu@52.50.22.47
+ DEBUG [c6479823] Command: /usr/bin/env mkdir -p /tmp
+  INFO [c6479823] Finished in 0.582 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-sample-app-staging-stephen.reid.sh 0.0%
+  INFO Uploading /tmp/git-ssh-sample-app-staging-stephen.reid.sh 100.0%
+  INFO [99a00643] Running /usr/bin/env chmod 700 /tmp/git-ssh-sample-app-staging-stephen.reid.sh as ubuntu@52.50.22.47
+ DEBUG [99a00643] Command: /usr/bin/env chmod 700 /tmp/git-ssh-sample-app-staging-stephen.reid.sh
+  INFO [99a00643] Finished in 0.099 seconds with exit status 0 (successful).
+  INFO [06d26df1] Running /usr/bin/env git ls-remote git@github.com:spartaglobal/SpartaInventory.git HEAD as ubuntu@52.50.22.47
+ DEBUG [06d26df1] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-sample-app-staging-stephen.reid.sh" ; /usr/bin/env git ls-remote git@github.com:spartaglobal/SpartaInventory.git HEAD )
+ DEBUG [06d26df1] 	87546f66e7b0aabeac78562cd72cea2e1fce39f7	HEAD
+  INFO [06d26df1] Finished in 1.423 seconds with exit status 0 (successful).
+  INFO [fd9b6d4f] Running /usr/bin/env mkdir -p /home/ubuntu/app/shared /home/ubuntu/app/releases as ubuntu@52.50.22.47
+ DEBUG [fd9b6d4f] Command: /usr/bin/env mkdir -p /home/ubuntu/app/shared /home/ubuntu/app/releases
+  INFO [fd9b6d4f] Finished in 0.054 seconds with exit status 0 (successful).
+ DEBUG [6f9fd5ae] Running [ -f /home/ubuntu/app/current/REVISION ] as ubuntu@52.50.22.47
+ DEBUG [6f9fd5ae] Command: [ -f /home/ubuntu/app/current/REVISION ]
+ DEBUG [6f9fd5ae] Finished in 0.089 seconds with exit status 0 (successful).
+ DEBUG [172cb1b0] Running /usr/bin/env cat /home/ubuntu/app/current/REVISION 2>/dev/null as ubuntu@52.50.22.47
+ DEBUG [172cb1b0] Command: /usr/bin/env cat /home/ubuntu/app/current/REVISION 2>/dev/null
+ DEBUG [172cb1b0] 	87546f66e7b0aabeac78562cd72cea2e1fce39f7
+ DEBUG [172cb1b0] Finished in 0.093 seconds with exit status 0 (successful).
+ DEBUG [f6b5eba9] Running [ -f /home/ubuntu/app/repo/HEAD ] as ubuntu@52.50.22.47
+ DEBUG [f6b5eba9] Command: [ -f /home/ubuntu/app/repo/HEAD ]
+ DEBUG [f6b5eba9] Finished in 0.090 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/ubuntu/app/repo
+ DEBUG [f151c020] Running if test ! -d /home/ubuntu/app/repo; then echo "Directory does not exist '/home/ubuntu/app/repo'" 1>&2; false; fi as ubuntu@52.50.22.47
+ DEBUG [f151c020] Command: if test ! -d /home/ubuntu/app/repo; then echo "Directory does not exist '/home/ubuntu/app/repo'" 1>&2; false; fi
+ DEBUG [f151c020] Finished in 0.092 seconds with exit status 0 (successful).
+  INFO [321a3d3d] Running /usr/bin/env git remote set-url origin git@github.com:spartaglobal/SpartaInventory.git as ubuntu@52.50.22.47
+ DEBUG [321a3d3d] Command: cd /home/ubuntu/app/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-sample-app-staging-stephen.reid.sh" ; /usr/bin/env git remote set-url origin git@github.com:spartaglobal/SpartaInventory.git )
+  INFO [321a3d3d] Finished in 0.097 seconds with exit status 0 (successful).
+  INFO [ccddb2de] Running /usr/bin/env git remote update --prune as ubuntu@52.50.22.47
+ DEBUG [ccddb2de] Command: cd /home/ubuntu/app/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-sample-app-staging-stephen.reid.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [ccddb2de] 	Fetching origin
+  INFO [ccddb2de] Finished in 1.424 seconds with exit status 0 (successful).
+ DEBUG [6555cbcc] Running if test ! -d /home/ubuntu/app/repo; then echo "Directory does not exist '/home/ubuntu/app/repo'" 1>&2; false; fi as ubuntu@52.50.22.47
+ DEBUG [6555cbcc] Command: if test ! -d /home/ubuntu/app/repo; then echo "Directory does not exist '/home/ubuntu/app/repo'" 1>&2; false; fi
+ DEBUG [6555cbcc] Finished in 0.119 seconds with exit status 0 (successful).
+  INFO [a559380a] Running /usr/bin/env mkdir -p /home/ubuntu/app/releases/20180126152729 as ubuntu@52.50.22.47
+ DEBUG [a559380a] Command: cd /home/ubuntu/app/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-sample-app-staging-stephen.reid.sh" ; /usr/bin/env mkdir -p /home/ubuntu/app/releases/20180126152729 )
+  INFO [a559380a] Finished in 0.166 seconds with exit status 0 (successful).
+  INFO [c50d53ec] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/ubuntu/app/releases/20180126152729 as ubuntu@52.50.22.47
+ DEBUG [c50d53ec] Command: cd /home/ubuntu/app/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-sample-app-staging-stephen.reid.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/ubuntu/app/releases/20180126152729 )
+  INFO [c50d53ec] Finished in 0.139 seconds with exit status 0 (successful).
+ DEBUG [4b841fe5] Running if test ! -d /home/ubuntu/app/repo; then echo "Directory does not exist '/home/ubuntu/app/repo'" 1>&2; false; fi as ubuntu@52.50.22.47
+ DEBUG [4b841fe5] Command: if test ! -d /home/ubuntu/app/repo; then echo "Directory does not exist '/home/ubuntu/app/repo'" 1>&2; false; fi
+ DEBUG [4b841fe5] Finished in 0.094 seconds with exit status 0 (successful).
+ DEBUG [61e929a7] Running /usr/bin/env git rev-list --max-count=1 master as ubuntu@52.50.22.47
+ DEBUG [61e929a7] Command: cd /home/ubuntu/app/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-sample-app-staging-stephen.reid.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [61e929a7] 	87546f66e7b0aabeac78562cd72cea2e1fce39f7
+ DEBUG [61e929a7] Finished in 0.095 seconds with exit status 0 (successful).
+ DEBUG [fab9765b] Running if test ! -d /home/ubuntu/app/releases/20180126152729; then echo "Directory does not exist '/home/ubuntu/app/releases/20180126152729'" 1>&2; false; fi as ubuntu@52.50.22.47
+ DEBUG [fab9765b] Command: if test ! -d /home/ubuntu/app/releases/20180126152729; then echo "Directory does not exist '/home/ubuntu/app/releases/20180126152729'" 1>&2; false; fi
+ DEBUG [fab9765b] Finished in 0.094 seconds with exit status 0 (successful).
+  INFO [451ffcab] Running /usr/bin/env echo "87546f66e7b0aabeac78562cd72cea2e1fce39f7" >> REVISION as ubuntu@52.50.22.47
+ DEBUG [451ffcab] Command: cd /home/ubuntu/app/releases/20180126152729 && /usr/bin/env echo "87546f66e7b0aabeac78562cd72cea2e1fce39f7" >> REVISION
+  INFO [451ffcab] Finished in 0.094 seconds with exit status 0 (successful).
+  INFO [5b8cf8c9] Running /usr/bin/env ln -s /home/ubuntu/app/releases/20180126152729 /home/ubuntu/app/releases/current as ubuntu@52.50.22.47
+ DEBUG [5b8cf8c9] Command: /usr/bin/env ln -s /home/ubuntu/app/releases/20180126152729 /home/ubuntu/app/releases/current
+  INFO [5b8cf8c9] Finished in 0.091 seconds with exit status 0 (successful).
+  INFO [673540ae] Running /usr/bin/env mv /home/ubuntu/app/releases/current /home/ubuntu/app as ubuntu@52.50.22.47
+ DEBUG [673540ae] Command: /usr/bin/env mv /home/ubuntu/app/releases/current /home/ubuntu/app
+  INFO [673540ae] Finished in 0.095 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-01-26 15:29:13 +0000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [c35229a7] Running /usr/bin/env mkdir -p /tmp as ubuntu@52.50.22.47
+ DEBUG [c35229a7] Command: /usr/bin/env mkdir -p /tmp
+  INFO [c35229a7] Finished in 0.391 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-sample-app-staging-stephen.reid.sh 0.0%
+  INFO Uploading /tmp/git-ssh-sample-app-staging-stephen.reid.sh 100.0%
+  INFO [a82a593c] Running /usr/bin/env chmod 700 /tmp/git-ssh-sample-app-staging-stephen.reid.sh as ubuntu@52.50.22.47
+ DEBUG [a82a593c] Command: /usr/bin/env chmod 700 /tmp/git-ssh-sample-app-staging-stephen.reid.sh
+  INFO [a82a593c] Finished in 0.087 seconds with exit status 0 (successful).
+  INFO [b80e72b8] Running /usr/bin/env git ls-remote git@github.com:spartaglobal/SpartaInventory.git HEAD as ubuntu@52.50.22.47
+ DEBUG [b80e72b8] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-sample-app-staging-stephen.reid.sh" ; /usr/bin/env git ls-remote git@github.com:spartaglobal/SpartaInventory.git HEAD )
+ DEBUG [b80e72b8] 	87546f66e7b0aabeac78562cd72cea2e1fce39f7	HEAD
+  INFO [b80e72b8] Finished in 1.441 seconds with exit status 0 (successful).
+  INFO [3eca5730] Running /usr/bin/env mkdir -p /home/ubuntu/app/shared /home/ubuntu/app/releases as ubuntu@52.50.22.47
+ DEBUG [3eca5730] Command: /usr/bin/env mkdir -p /home/ubuntu/app/shared /home/ubuntu/app/releases
+  INFO [3eca5730] Finished in 0.051 seconds with exit status 0 (successful).
+ DEBUG [e1b19fd5] Running [ -f /home/ubuntu/app/current/REVISION ] as ubuntu@52.50.22.47
+ DEBUG [e1b19fd5] Command: [ -f /home/ubuntu/app/current/REVISION ]
+ DEBUG [e1b19fd5] Finished in 0.086 seconds with exit status 0 (successful).
+ DEBUG [b2ae4183] Running /usr/bin/env cat /home/ubuntu/app/current/REVISION 2>/dev/null as ubuntu@52.50.22.47
+ DEBUG [b2ae4183] Command: /usr/bin/env cat /home/ubuntu/app/current/REVISION 2>/dev/null
+ DEBUG [b2ae4183] 	87546f66e7b0aabeac78562cd72cea2e1fce39f7
+ DEBUG [b2ae4183] Finished in 0.089 seconds with exit status 0 (successful).
+ DEBUG [df12a46b] Running [ -f /home/ubuntu/app/repo/HEAD ] as ubuntu@52.50.22.47
+ DEBUG [df12a46b] Command: [ -f /home/ubuntu/app/repo/HEAD ]
+ DEBUG [df12a46b] Finished in 0.086 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/ubuntu/app/repo
+ DEBUG [e9af0d59] Running if test ! -d /home/ubuntu/app/repo; then echo "Directory does not exist '/home/ubuntu/app/repo'" 1>&2; false; fi as ubuntu@52.50.22.47
+ DEBUG [e9af0d59] Command: if test ! -d /home/ubuntu/app/repo; then echo "Directory does not exist '/home/ubuntu/app/repo'" 1>&2; false; fi
+ DEBUG [e9af0d59] Finished in 0.087 seconds with exit status 0 (successful).
+  INFO [32944ddc] Running /usr/bin/env git remote set-url origin git@github.com:spartaglobal/SpartaInventory.git as ubuntu@52.50.22.47
+ DEBUG [32944ddc] Command: cd /home/ubuntu/app/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-sample-app-staging-stephen.reid.sh" ; /usr/bin/env git remote set-url origin git@github.com:spartaglobal/SpartaInventory.git )
+  INFO [32944ddc] Finished in 0.088 seconds with exit status 0 (successful).
+  INFO [da32b573] Running /usr/bin/env git remote update --prune as ubuntu@52.50.22.47
+ DEBUG [da32b573] Command: cd /home/ubuntu/app/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-sample-app-staging-stephen.reid.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [da32b573] 	Fetching origin
+  INFO [da32b573] Finished in 1.376 seconds with exit status 0 (successful).
+ DEBUG [0cbc5643] Running if test ! -d /home/ubuntu/app/repo; then echo "Directory does not exist '/home/ubuntu/app/repo'" 1>&2; false; fi as ubuntu@52.50.22.47
+ DEBUG [0cbc5643] Command: if test ! -d /home/ubuntu/app/repo; then echo "Directory does not exist '/home/ubuntu/app/repo'" 1>&2; false; fi
+ DEBUG [0cbc5643] Finished in 0.046 seconds with exit status 0 (successful).
+  INFO [17b82a55] Running /usr/bin/env mkdir -p /home/ubuntu/app/releases/20180126152916 as ubuntu@52.50.22.47
+ DEBUG [17b82a55] Command: cd /home/ubuntu/app/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-sample-app-staging-stephen.reid.sh" ; /usr/bin/env mkdir -p /home/ubuntu/app/releases/20180126152916 )
+  INFO [17b82a55] Finished in 0.087 seconds with exit status 0 (successful).
+  INFO [0bb1390e] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/ubuntu/app/releases/20180126152916 as ubuntu@52.50.22.47
+ DEBUG [0bb1390e] Command: cd /home/ubuntu/app/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-sample-app-staging-stephen.reid.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/ubuntu/app/releases/20180126152916 )
+  INFO [0bb1390e] Finished in 0.106 seconds with exit status 0 (successful).
+ DEBUG [8515e832] Running if test ! -d /home/ubuntu/app/repo; then echo "Directory does not exist '/home/ubuntu/app/repo'" 1>&2; false; fi as ubuntu@52.50.22.47
+ DEBUG [8515e832] Command: if test ! -d /home/ubuntu/app/repo; then echo "Directory does not exist '/home/ubuntu/app/repo'" 1>&2; false; fi
+ DEBUG [8515e832] Finished in 0.088 seconds with exit status 0 (successful).
+ DEBUG [a2166211] Running /usr/bin/env git rev-list --max-count=1 master as ubuntu@52.50.22.47
+ DEBUG [a2166211] Command: cd /home/ubuntu/app/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-sample-app-staging-stephen.reid.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [a2166211] 	87546f66e7b0aabeac78562cd72cea2e1fce39f7
+ DEBUG [a2166211] Finished in 0.090 seconds with exit status 0 (successful).
+ DEBUG [efc30933] Running if test ! -d /home/ubuntu/app/releases/20180126152916; then echo "Directory does not exist '/home/ubuntu/app/releases/20180126152916'" 1>&2; false; fi as ubuntu@52.50.22.47
+ DEBUG [efc30933] Command: if test ! -d /home/ubuntu/app/releases/20180126152916; then echo "Directory does not exist '/home/ubuntu/app/releases/20180126152916'" 1>&2; false; fi
+ DEBUG [efc30933] Finished in 0.092 seconds with exit status 0 (successful).
+  INFO [0f46d03e] Running /usr/bin/env echo "87546f66e7b0aabeac78562cd72cea2e1fce39f7" >> REVISION as ubuntu@52.50.22.47
+ DEBUG [0f46d03e] Command: cd /home/ubuntu/app/releases/20180126152916 && /usr/bin/env echo "87546f66e7b0aabeac78562cd72cea2e1fce39f7" >> REVISION
+  INFO [0f46d03e] Finished in 0.091 seconds with exit status 0 (successful).
+  INFO [c634bca2] Running /usr/bin/env ln -s /home/ubuntu/app/releases/20180126152916 /home/ubuntu/app/releases/current as ubuntu@52.50.22.47
+ DEBUG [c634bca2] Command: /usr/bin/env ln -s /home/ubuntu/app/releases/20180126152916 /home/ubuntu/app/releases/current
+  INFO [c634bca2] Finished in 0.180 seconds with exit status 0 (successful).
+  INFO [1fede163] Running /usr/bin/env mv /home/ubuntu/app/releases/current /home/ubuntu/app as ubuntu@52.50.22.47
+ DEBUG [1fede163] Command: /usr/bin/env mv /home/ubuntu/app/releases/current /home/ubuntu/app
+  INFO [1fede163] Finished in 0.089 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-01-26 15:33:30 +0000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [1b8cbe8d] Running /usr/bin/env mkdir -p /tmp as ubuntu@52.50.22.47
+ DEBUG [1b8cbe8d] Command: /usr/bin/env mkdir -p /tmp
+  INFO [1b8cbe8d] Finished in 0.397 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-sample-app-staging-stephen.reid.sh 0.0%
+  INFO Uploading /tmp/git-ssh-sample-app-staging-stephen.reid.sh 100.0%
+  INFO [5ec5a058] Running /usr/bin/env chmod 700 /tmp/git-ssh-sample-app-staging-stephen.reid.sh as ubuntu@52.50.22.47
+ DEBUG [5ec5a058] Command: /usr/bin/env chmod 700 /tmp/git-ssh-sample-app-staging-stephen.reid.sh
+  INFO [5ec5a058] Finished in 0.094 seconds with exit status 0 (successful).
+  INFO [5d476a60] Running /usr/bin/env git ls-remote git@github.com:spartaglobal/SpartaInventory.git HEAD as ubuntu@52.50.22.47
+ DEBUG [5d476a60] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-sample-app-staging-stephen.reid.sh" ; /usr/bin/env git ls-remote git@github.com:spartaglobal/SpartaInventory.git HEAD )
+ DEBUG [5d476a60] 	87546f66e7b0aabeac78562cd72cea2e1fce39f7	HEAD
+  INFO [5d476a60] Finished in 1.419 seconds with exit status 0 (successful).
+  INFO [19506cfb] Running /usr/bin/env mkdir -p /home/ubuntu/app/shared /home/ubuntu/app/releases as ubuntu@52.50.22.47
+ DEBUG [19506cfb] Command: /usr/bin/env mkdir -p /home/ubuntu/app/shared /home/ubuntu/app/releases
+  INFO [19506cfb] Finished in 0.056 seconds with exit status 0 (successful).
+ DEBUG [3efc5074] Running [ -f /home/ubuntu/app/current/REVISION ] as ubuntu@52.50.22.47
+ DEBUG [3efc5074] Command: [ -f /home/ubuntu/app/current/REVISION ]
+ DEBUG [3efc5074] Finished in 0.089 seconds with exit status 0 (successful).
+ DEBUG [0167a233] Running /usr/bin/env cat /home/ubuntu/app/current/REVISION 2>/dev/null as ubuntu@52.50.22.47
+ DEBUG [0167a233] Command: /usr/bin/env cat /home/ubuntu/app/current/REVISION 2>/dev/null
+ DEBUG [0167a233] 	87546f66e7b0aabeac78562cd72cea2e1fce39f7
+ DEBUG [0167a233] Finished in 0.097 seconds with exit status 0 (successful).
+ DEBUG [e978ac76] Running [ -f /home/ubuntu/app/repo/HEAD ] as ubuntu@52.50.22.47
+ DEBUG [e978ac76] Command: [ -f /home/ubuntu/app/repo/HEAD ]
+ DEBUG [e978ac76] Finished in 0.096 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/ubuntu/app/repo
+ DEBUG [01744d95] Running if test ! -d /home/ubuntu/app/repo; then echo "Directory does not exist '/home/ubuntu/app/repo'" 1>&2; false; fi as ubuntu@52.50.22.47
+ DEBUG [01744d95] Command: if test ! -d /home/ubuntu/app/repo; then echo "Directory does not exist '/home/ubuntu/app/repo'" 1>&2; false; fi
+ DEBUG [01744d95] Finished in 0.097 seconds with exit status 0 (successful).
+  INFO [1f620bbf] Running /usr/bin/env git remote set-url origin git@github.com:spartaglobal/SpartaInventory.git as ubuntu@52.50.22.47
+ DEBUG [1f620bbf] Command: cd /home/ubuntu/app/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-sample-app-staging-stephen.reid.sh" ; /usr/bin/env git remote set-url origin git@github.com:spartaglobal/SpartaInventory.git )
+  INFO [1f620bbf] Finished in 0.152 seconds with exit status 0 (successful).
+  INFO [9fda2b6e] Running /usr/bin/env git remote update --prune as ubuntu@52.50.22.47
+ DEBUG [9fda2b6e] Command: cd /home/ubuntu/app/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-sample-app-staging-stephen.reid.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [9fda2b6e] 	Fetching origin
+  INFO [9fda2b6e] Finished in 1.352 seconds with exit status 0 (successful).
+ DEBUG [bcfd7abd] Running if test ! -d /home/ubuntu/app/repo; then echo "Directory does not exist '/home/ubuntu/app/repo'" 1>&2; false; fi as ubuntu@52.50.22.47
+ DEBUG [bcfd7abd] Command: if test ! -d /home/ubuntu/app/repo; then echo "Directory does not exist '/home/ubuntu/app/repo'" 1>&2; false; fi
+ DEBUG [bcfd7abd] Finished in 0.043 seconds with exit status 0 (successful).
+  INFO [c83ca621] Running /usr/bin/env mkdir -p /home/ubuntu/app/releases/20180126153333 as ubuntu@52.50.22.47
+ DEBUG [c83ca621] Command: cd /home/ubuntu/app/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-sample-app-staging-stephen.reid.sh" ; /usr/bin/env mkdir -p /home/ubuntu/app/releases/20180126153333 )
+  INFO [c83ca621] Finished in 0.104 seconds with exit status 0 (successful).
+  INFO [ca37ef9f] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/ubuntu/app/releases/20180126153333 as ubuntu@52.50.22.47
+ DEBUG [ca37ef9f] Command: cd /home/ubuntu/app/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-sample-app-staging-stephen.reid.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/ubuntu/app/releases/20180126153333 )
+  INFO [ca37ef9f] Finished in 0.156 seconds with exit status 0 (successful).
+ DEBUG [bec03aa1] Running if test ! -d /home/ubuntu/app/repo; then echo "Directory does not exist '/home/ubuntu/app/repo'" 1>&2; false; fi as ubuntu@52.50.22.47
+ DEBUG [bec03aa1] Command: if test ! -d /home/ubuntu/app/repo; then echo "Directory does not exist '/home/ubuntu/app/repo'" 1>&2; false; fi
+ DEBUG [bec03aa1] Finished in 0.100 seconds with exit status 0 (successful).
+ DEBUG [5ad21759] Running /usr/bin/env git rev-list --max-count=1 master as ubuntu@52.50.22.47
+ DEBUG [5ad21759] Command: cd /home/ubuntu/app/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-sample-app-staging-stephen.reid.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [5ad21759] 	87546f66e7b0aabeac78562cd72cea2e1fce39f7
+ DEBUG [5ad21759] Finished in 0.103 seconds with exit status 0 (successful).
+ DEBUG [0e2a27a7] Running if test ! -d /home/ubuntu/app/releases/20180126153333; then echo "Directory does not exist '/home/ubuntu/app/releases/20180126153333'" 1>&2; false; fi as ubuntu@52.50.22.47
+ DEBUG [0e2a27a7] Command: if test ! -d /home/ubuntu/app/releases/20180126153333; then echo "Directory does not exist '/home/ubuntu/app/releases/20180126153333'" 1>&2; false; fi
+ DEBUG [0e2a27a7] Finished in 0.099 seconds with exit status 0 (successful).
+  INFO [8158e3b0] Running /usr/bin/env echo "87546f66e7b0aabeac78562cd72cea2e1fce39f7" >> REVISION as ubuntu@52.50.22.47
+ DEBUG [8158e3b0] Command: cd /home/ubuntu/app/releases/20180126153333 && /usr/bin/env echo "87546f66e7b0aabeac78562cd72cea2e1fce39f7" >> REVISION
+  INFO [8158e3b0] Finished in 0.113 seconds with exit status 0 (successful).
+  INFO [27c0ebf5] Running /usr/bin/env ln -s /home/ubuntu/app/releases/20180126153333 /home/ubuntu/app/releases/current as ubuntu@52.50.22.47
+ DEBUG [27c0ebf5] Command: /usr/bin/env ln -s /home/ubuntu/app/releases/20180126153333 /home/ubuntu/app/releases/current
+  INFO [27c0ebf5] Finished in 0.112 seconds with exit status 0 (successful).
+  INFO [7ad86624] Running /usr/bin/env mv /home/ubuntu/app/releases/current /home/ubuntu/app as ubuntu@52.50.22.47
+ DEBUG [7ad86624] Command: /usr/bin/env mv /home/ubuntu/app/releases/current /home/ubuntu/app
+  INFO [7ad86624] Finished in 0.097 seconds with exit status 0 (successful).
+ DEBUG [c7a73dd1] Running /usr/bin/env ls -x /home/ubuntu/app/releases as ubuntu@52.50.22.47
+ DEBUG [c7a73dd1] Command: /usr/bin/env ls -x /home/ubuntu/app/releases
+ DEBUG [c7a73dd1] 	20180126152546	20180126152729	20180126152916	20180126153333
+ DEBUG [c7a73dd1] Finished in 0.623 seconds with exit status 0 (successful).
+ DEBUG [48fdd2a9] Running if test ! -d /home/ubuntu/app/releases; then echo "Directory does not exist '/home/ubuntu/app/releases'" 1>&2; false; fi as ubuntu@52.50.22.47
+ DEBUG [48fdd2a9] Command: if test ! -d /home/ubuntu/app/releases; then echo "Directory does not exist '/home/ubuntu/app/releases'" 1>&2; false; fi
+ DEBUG [48fdd2a9] Finished in 0.093 seconds with exit status 0 (successful).
+  INFO [493e0831] Running /usr/bin/env echo "Branch master (at 87546f66e7b0aabeac78562cd72cea2e1fce39f7) deployed as release 20180126153333 by stephen.reid" >> /home/ubuntu/app/revisions.log as ubuntu@52.50.22.47
+ DEBUG [493e0831] Command: cd /home/ubuntu/app/releases && /usr/bin/env echo "Branch master (at 87546f66e7b0aabeac78562cd72cea2e1fce39f7) deployed as release 20180126153333 by stephen.reid" >> /home/ubuntu/app/revisions.log
+  INFO [493e0831] Finished in 0.098 seconds with exit status 0 (successful).
