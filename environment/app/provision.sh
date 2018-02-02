@@ -4,11 +4,21 @@
 sudo apt-get update -y
 
 # upgrade any packages available
-sudo rm /boot/grub/menu.lst
 sudo apt-get upgrade -y
 
 # install nginx
 sudo apt-get install nginx -y
+
+# copy config in to place
+sudo rm /etc/nginx/sites-enabled/default
+sudo cp /home/ubuntu/templates/nginx.conf /etc/nginx/sites-available
+sudo ln -s /etc/nginx/sites-available/nginx.conf /etc/nginx/sites-enabled/nginx.conf
+
+# restart nginx
+sudo service nginx restart
+
+# copy the profiles.d directory
+sudo cp /home/ubuntu/profile.d/* /etc/profile.d
 
 # install git
 sudo apt-get install git -y
