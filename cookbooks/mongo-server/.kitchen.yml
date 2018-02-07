@@ -1,0 +1,23 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_solo
+
+platforms:
+  - name: ubuntu-16.04
+    driver: 
+       box: ubuntu/xenial64
+
+verifier:
+  name: inspec
+
+suites:
+    - name: default
+      run_list:
+        - recipe[mongo-server::default]
+      verifier:
+        inspec_tests:
+          - test/smoke/default
+      attributes:

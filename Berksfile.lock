@@ -1,0 +1,32 @@
+DEPENDENCIES
+  mongo-server
+    git: git@github.com:spartaglobal/mongo-server-cookbook.git
+    revision: 88c20dbcaaeca4201170f336a7d6b8df8d14995e
+  node-server
+    git: git@github.com:spartaglobal/node-server-cookbook.git
+    revision: 9eb7262ed20fa793cc344f91cadad248281cd49e
+
+GRAPH
+  apt (6.1.4)
+  build-essential (8.0.4)
+    mingw (>= 1.1)
+    seven_zip (>= 0.0.0)
+  compat_resource (12.19.1)
+  dmg (4.1.0)
+  git (6.0.0)
+    build-essential (>= 0.0.0)
+    dmg (>= 0.0.0)
+    yum-epel (>= 0.0.0)
+  mingw (2.0.1)
+    seven_zip (>= 0.0.0)
+  mongo-server (0.3.1)
+  node-server (0.3.0)
+    apt (~> 6.1.0)
+    git (~> 6.0.0)
+  ohai (5.2.1)
+  seven_zip (2.0.2)
+    windows (>= 1.2.2)
+  windows (3.4.4)
+    ohai (>= 4.0.0)
+  yum-epel (2.1.2)
+    compat_resource (>= 12.16.3)

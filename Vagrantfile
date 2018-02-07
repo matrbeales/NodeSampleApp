@@ -12,23 +12,21 @@ Vagrant.configure("2") do |config|
     
     # Synced app folder
     app.vm.synced_folder "app", "/app"
-    app.vm.synced_folder "environment/app/templates", "/home/ubuntu/templates"
-    app.vm.synced_folder "environment/app/profile.d", "/home/ubuntu/profile.d"
 
-    # Provisioning
-    app.vm.provision "shell", path: "environment/app/provision.sh"
+    # provision with chef
+    app.vm.provision "chef_solo" do |chef|
+        chef.add_recipe "node-server::default"
+    end
   end
 
   config.vm.define "db" do |db|
     db.vm.box = "ubuntu/xenial64"
     db.vm.network "private_network", ip: "192.168.10.150"
     db.hostsupdater.aliases = ["database.local"]
-    
-    # Synced app folder
-    db.vm.synced_folder "environment/db/templates", "/db/templates"
-    db.vm.synced_folder "environment/db/profile.d", "/home/ubuntu/profile.d"
 
-    # Provisioning
-    db.vm.provision "shell", path: "environment/db/provision.sh"
+    # provision with chef
+    db.vm.provision "chef_solo" do |chef|
+        chef.add_recipe "mongo-server::default"
+    end
   end
 end
