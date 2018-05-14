@@ -1,5 +1,10 @@
 # Test App for CI with Jenkins
 
-## Recent additions
+## Installation
 
-Created develop branch and setup jenkins to perform merge before build.
+```
+cd app
+npm install
+npm run test-unit
+npm run test-integration
+```
