@@ -1,7 +1,8 @@
 {
   "variables": {
     "aws_access_key": "",
-    "aws_secret_key": ""
+    "aws_secret_key": "",
+    "version" : "{{env `GIT_TAG_NAME`}}"
   },
   "builders": [{
     "type": "amazon-ebs",
@@ -19,7 +20,7 @@
     },
     "instance_type": "t2.micro",
     "ssh_username": "ubuntu",
-    "ami_name": "stephen-app-{{timestamp}}"
+    "ami_name": "example-node-app-{{user `version`}}"
   }],
   "provisioners": [
     {
