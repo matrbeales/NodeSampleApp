@@ -13,10 +13,6 @@ terraform {
 
 provider "aws" {
   region  = "eu-west-2"
-  assume_role {
-    role_arn     = "arn:aws:iam::135928476890:role/TerraformLondon"
-    session_name = "TerraformLondon"
-  }
 }
 
 data "aws_ami" "latest" {
