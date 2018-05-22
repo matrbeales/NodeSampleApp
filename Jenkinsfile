@@ -55,8 +55,6 @@ pipeline {
               label 'master'
             }
             steps {
-                cleanWs()
-                git url: 'git@github.com:spartaglobal/NodeSampleApp.git', branch: 'master', credentialsId: 'b37b90c9-9927-4e2e-bb08-9023d13653ef'
                 sh 'terraform init -input=false'
                 sh 'terraform plan -out=tfplan -input=false'
             }
@@ -77,7 +75,6 @@ pipeline {
               label 'master'
             }
             steps {
-                cleanWs()
                 input message: 'Would you like to deploy this version?', ok: 'Deploy'
                 git url: 'git@github.com:spartaglobal/NodeSampleApp.git', branch: 'master', credentialsId: 'b37b90c9-9927-4e2e-bb08-9023d13653ef'
                 sh 'terraform init -input=false'
