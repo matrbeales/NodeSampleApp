@@ -29,7 +29,6 @@ pipeline {
             }
             
             steps {
-                cleanWs()
                 script {
                     env.GIT_TAG_NAME = sh(returnStdout: true, script: "git tag --sort version:refname | tail -1").trim()
                 }
