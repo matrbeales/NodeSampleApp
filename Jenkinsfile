@@ -7,7 +7,7 @@ pipeline {
             }
             steps {
                 cleanWs()
-                git url: 'git@github.com:spartaglobal/NodeSampleApp.git', branch: 'master', credentialsId: 'b37b90c9-9927-4e2e-bb08-9023d13653ef'
+                checkout([$class: 'GitSCM', branches: [[name: '**']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'b37b90c9-9927-4e2e-bb08-9023d13653ef', name: 'origin', refspec: '+refs/pull/*:refs/remotes/origin/pr/*', url: 'git@github.com:spartaglobal/NodeSampleApp.git']]])
                 dir('app') {
                     sh 'npm install'
                     sh 'npm run test-unit'
@@ -24,7 +24,7 @@ pipeline {
         
         stage("Build") {
           
-            when { tag "v*" }
+            when { tag "v*.*.*" }
           
             agent {
               label 'master'
@@ -49,7 +49,7 @@ pipeline {
         
         stage("Plan") {
             
-            when { tag "v*" }
+            when { tag "v*.*.*" }
             
             agent {
               label 'master'
@@ -71,7 +71,7 @@ pipeline {
         
         stage("Deploy") {
             
-            when { tag "v*" }
+            when { tag "v*.*.*" }
             
             agent {
               label 'master'
