@@ -6,8 +6,6 @@ pipeline {
               label 'ubuntu-node'
             }
             steps {
-                cleanWs()
-                checkout([$class: 'GitSCM', branches: [[name: '**']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'b37b90c9-9927-4e2e-bb08-9023d13653ef', name: 'origin', refspec: '+refs/pull/*:refs/remotes/origin/pr/*', url: 'git@github.com:spartaglobal/NodeSampleApp.git']]])
                 dir('app') {
                     sh 'npm install'
                     sh 'npm run test-unit'
@@ -31,8 +29,6 @@ pipeline {
             }
             
             steps {
-                cleanWs()
-                checkout([$class: 'GitSCM', branches: [[name: '**']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'b37b90c9-9927-4e2e-bb08-9023d13653ef', name: 'origin', refspec: '+refs/tags/*:refs/remotes/origin/tags/*', url: 'git@github.com:spartaglobal/NodeSampleApp.git']]])
                 script {
                     env.GIT_TAG_NAME = sh(returnStdout: true, script: "git tag --sort version:refname | tail -1").trim()
                 }
@@ -55,15 +51,13 @@ pipeline {
               label 'master'
             }
             steps {
-                cleanWs()
-                git url: 'git@github.com:spartaglobal/NodeSampleApp.git', branch: 'master', credentialsId: 'b37b90c9-9927-4e2e-bb08-9023d13653ef'
                 sh 'terraform init -input=false'
                 sh 'terraform plan -out=tfplan -input=false'
             }
             
             post {
                 success {
-                  echo "plan created"
+                  echo "plan created successfully"
                   archiveArtifacts 'tfplan'
                 }
             }
@@ -77,9 +71,7 @@ pipeline {
               label 'master'
             }
             steps {
-                cleanWs()
                 input message: 'Would you like to deploy this version?', ok: 'Deploy'
-                git url: 'git@github.com:spartaglobal/NodeSampleApp.git', branch: 'master', credentialsId: 'b37b90c9-9927-4e2e-bb08-9023d13653ef'
                 sh 'terraform init -input=false'
                 sh 'terraform apply "tfplan"'
             }
