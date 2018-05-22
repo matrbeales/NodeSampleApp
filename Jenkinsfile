@@ -57,7 +57,7 @@ pipeline {
             
             post {
                 success {
-                  echo "plan created"
+                  echo "plan created successfully"
                   archiveArtifacts 'tfplan'
                 }
             }
