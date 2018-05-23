@@ -71,14 +71,13 @@ pipeline {
               label 'master'
             }
             steps {
-                input message: 'Would you like to deploy this version?', ok: 'Deploy'
                 sh 'terraform init -input=false'
                 sh 'terraform apply "tfplan"'
             }
             
             post {
                 success {
-                  echo "deployment successfull"
+                  echo "deployment successful"
                 }
             }
         }
