@@ -30,7 +30,7 @@
     {
       "type": "file",
       "source": "app",
-      "destination": "/home/ubuntu/app"
+      "destination": "/home/ubuntu/app/"
     },
     {
       "type": "chef-solo",
