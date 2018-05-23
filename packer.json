@@ -29,8 +29,8 @@
     },
     {
       "type": "file",
-      "source": "app",
-      "destination": "/home/ubuntu/app/"
+      "source": "app/",
+      "destination": "/home/ubuntu/app"
     },
     {
       "type": "chef-solo",
