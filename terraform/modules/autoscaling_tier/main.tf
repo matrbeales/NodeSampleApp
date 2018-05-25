@@ -111,7 +111,7 @@ resource "aws_elb" "elb" {
    image_id = "${var.ami_id}"
    instance_type = "t2.micro"
    user_data = "${var.user_data}"
-   vpc_security_group_ids = ["${aws_security_group.app.id}"]
+   security_groups = ["${aws_security_group.app.id}"]
    lifecycle {
      create_before_destroy = true
    }

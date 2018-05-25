@@ -50,9 +50,10 @@ module "app_tier" {
 
 module "db_tier" {
   name   = "node-example-db"
-  source = "./terraform/modules/basic_tier"
+  source = "./terraform/modules/replica_set"
   vpc_id = "${module.vpc.vpc_id}"
   ami_id = "ami-5423ce33"
+  route_table_id = "${module.vpc.public_route_table_id}"
   cidr_block = "10.0.2.0/24"
   security_groups = "${module.app_tier.app_security_group_id}"
   port = "27017"
