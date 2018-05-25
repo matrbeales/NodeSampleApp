@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postinstall": "node seeds/seed.js",
-    "start": "node app.js",
+    "start": "pm2 start app.js",
     "test-unit": "./node_modules/mocha/bin/mocha test/unit",
     "test-integration": "./node_modules/mocha/bin/mocha test/integration"
   },
