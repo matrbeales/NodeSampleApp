@@ -5,7 +5,7 @@ var AdvancedMaths = require('../../modules/advanced-maths');
 describe('AdvancedMaths', function() {
   describe('fibonacci()' , function() {
     it('should return 0 when 0 is entered', function() {
-      expect(AdvancedMaths.fibonacci(0)).to.equal(1);
+      expect(AdvancedMaths.fibonacci(0)).to.equal(0);
     });
 
     it('should return 1 when 1 is entered', function() {
