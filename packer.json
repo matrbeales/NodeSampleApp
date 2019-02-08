@@ -9,7 +9,7 @@
     "subnet_id": "subnet-0e9b6138ff1ce18f2",
     "ssh_keypair_name": "DevOpsStudents",
     "ssh_agent_auth": true,
-    "assaciate_public_ip_address": "true",
+    "associate_public_ip_address": "true",
     "access_key": "{{user `aws_access_key`}}",
     "secret_key": "{{user `aws_secret_key`}}",
     "region": "eu-west-1",
