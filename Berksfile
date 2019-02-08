@@ -1,4 +1,4 @@
 source 'https://supermarket.chef.io'
 
-cookbook 'node-server', git: 'git@github.com:spartaglobal/node-server-cookbook.git'
-cookbook 'mongo-server', git: 'git@github.com:spartaglobal/mongo-server-cookbook.git'
+cookbook 'node', git: 'git@github.com:matrbeales/node-cookbook.git'
+cookbook 'mongo', git: 'git@github.com:matrbeales/mongo-cookbook.git'

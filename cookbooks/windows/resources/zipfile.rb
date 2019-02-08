@@ -6,7 +6,7 @@
 # Resource:: zipfile
 #
 # Copyright:: 2010-2017, VMware, Inc.
-# Copyright:: 2011-2017, Chef Software, Inc.
+# Copyright:: 2011-2018, Chef Software, Inc.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -21,13 +21,12 @@
 # limitations under the License.
 #
 
+require 'chef/util/path_helper'
+
 property :path, String, name_property: true
 property :source, String
 property :overwrite, [true, false], default: false
 property :checksum, String
-
-include Windows::Helper
-require 'find'
 
 action :unzip do
   ensure_rubyzip_gem_installed
@@ -49,7 +48,7 @@ action :unzip do
                       new_resource.source
                     end
 
-  cache_file_path = win_friendly_path(cache_file_path)
+  cache_file_path = Chef::Util::PathHelper.cleanpath(cache_file_path)
 
   converge_by("unzip #{new_resource.source}") do
     ruby_block 'Unzipping' do
@@ -112,12 +111,14 @@ action :zip do
 end
 
 action_class do
+  include Windows::Helper
+  require 'find'
+
   def ensure_rubyzip_gem_installed
     require 'zip'
   rescue LoadError
     Chef::Log.info("Missing gem 'rubyzip'...installing now.")
     chef_gem 'rubyzip' do
-      version node['windows']['rubyzipversion']
       action :install
       compile_time true
     end
